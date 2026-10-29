@@ -550,3 +550,9 @@ a { color: var(--terra-d); }
 .contact .btn-ghost:hover {
   background: var(--gold); border-color: var(--gold); color: #3B2A21;
 }
+
+/* FSociety lab card */
+.lab-card { grid-column: 1 / -1; }
+.lab-card .t-bullets { margin-top: 12px; }
+.lab-card .skill-chips { margin-top: 16px; }
+@media (max-width: 900px) { .lab-card { grid-column: auto; } }

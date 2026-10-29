@@ -301,7 +301,22 @@
       <div class="container">
         <p class="kicker">Research &amp; Projects</p>
         <h2>Research and hands-on projects</h2>
-        <div class="cards three">
+        <article class="card lab-card c-violet">
+            <p class="meta">Team project &middot; Ethical Penetration Testing &middot; October 2026</p>
+            <h3>FSociety Cybersecurity Lab</h3>
+            <p>A three-machine penetration testing lab built on TopoMojo with teammates Kedwin Chen, Keshav Ravichandra Raju, and Emily Wan, simulating a corporate network for a fictional company. Attackers scan, exploit, escalate, and pivot across machines of increasing difficulty.</p>
+            <p><strong>My build: Level 2</strong>, a Backdrop CMS machine that serves as the pivot point to the internal network.</p>
+            <ul class="t-bullets">
+              <li>Configured a LAMP stack and deployed Backdrop CMS on a non-standard port, with two deliberate misconfigurations forming the level's attack chain.</li>
+              <li>Wrote a custom Python exploit automating an authenticated remote-code-execution vulnerability (CVE-2024-55655) in Backdrop CMS's module installer.</li>
+              <li>Designed a privilege-escalation path around a world-writable system file, paired with a simulated monitoring job to teach why detection without remediation isn't enough.</li>
+              <li>Built auto-graded checkpoints with hashed answer verification, and a full student walkthrough with troubleshooting notes.</li>
+              <li>Debugged infrastructure issues under the hood: disk space exhaustion, crashed services after accidental log deletion, and brute-force protections that needed reconfiguring for the exercise.</li>
+            </ul>
+            <ul class="skill-chips">
+              <li>CVE research</li><li>Web exploitation</li><li>Privilege escalation</li><li>Persistence</li><li>Exploit scripting (Python)</li><li>Lab infrastructure</li>
+            </ul>
+          </article><div class="cards three">
           <article class="card c-teal">
             <div class="icon">&#128196;</div>
             <h3>Enhancing Internet Traffic Privacy using l-Diversity and TOR</h3>
