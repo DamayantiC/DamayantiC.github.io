@@ -556,3 +556,9 @@ a { color: var(--terra-d); }
 .lab-card .t-bullets { margin-top: 12px; }
 .lab-card .skill-chips { margin-top: 16px; }
 @media (max-width: 900px) { .lab-card { grid-column: auto; } }
+
+/* VIT coursework chips */
+.vit-chips { margin-top: 12px; }
+
+/* Chip section labels */
+.chip-label { margin: 18px 0 6px; font-size: 0.8rem; font-weight: 700; color: var(--terra-d); text-transform: uppercase; letter-spacing: 0.08em; }
