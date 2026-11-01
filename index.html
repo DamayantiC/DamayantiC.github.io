@@ -315,6 +315,21 @@
       <div class="container">
         <p class="kicker">Research &amp; Projects</p>
         <h2>Research and hands-on projects</h2>
+        <article class="card lab-card c-teal">
+            <p class="meta">Secure &amp; Responsible AI project &middot; April 2026</p>
+            <h3>HateGuard: Secure &amp; Responsible Hate Speech Detection</h3>
+            <p>Fine-tunes DistilBERT on HateXplain (about 20,000 posts from Twitter and Gab) to classify posts as hate speech, offensive, or normal, then evaluates and hardens the model across four pillars: security, reliability, ethics and fairness, and deployment trustworthiness.</p>
+            <ul class="t-bullets">
+              <li><strong>Security:</strong> red-teamed the classifier with character-level evasion (Unicode homoglyphs, leetspeak, typos) and word-level TextFooler synonym attacks, then built defenses: input normalization that reverses homoglyphs and leetspeak, and adversarial training.</li>
+              <li><strong>Fairness:</strong> audited false positive and false negative rates across 9 demographic groups, and applied counterfactual data augmentation and equalized-odds threshold adjustment, with a guard against making the model blind to hate speech.</li>
+              <li><strong>Reliability:</strong> tested cross-platform shift (Twitter to Gab), noisy inputs, and out-of-distribution data.</li>
+              <li><strong>Governance:</strong> mapped the system to the NIST AI RMF and generated a model card.</li>
+              <li><strong>Engineering:</strong> a config-driven pipeline with seeded, reproducible attacks and a 14-test suite.</li>
+            </ul>
+            <ul class="skill-chips">
+              <li>Adversarial ML</li><li>Evasion attacks</li><li>Adversarial training</li><li>Fairness auditing</li><li>Distribution shift</li><li>NIST AI RMF</li><li>Model cards</li><li>Python</li>
+            </ul>
+          </article>
         <article class="card lab-card c-violet">
             <p class="meta">Team project &middot; Ethical Penetration Testing &middot; April 2026</p>
             <h3>FSociety Cybersecurity Lab</h3>
@@ -343,9 +358,9 @@
           </article>
           <article class="card c-violet">
             <div class="icon">&#129302;</div>
-            <h3>HateGuard: A Secure AI Agent</h3>
-            <p class="meta">Python &middot; AI security frameworks &middot; April 2026</p>
-            <p>A hate-speech detection agent with controlled tool access, input validation, and risk-aware orchestration. Threat modeling informed mitigations against prompt injection, privilege misuse, and other adversarial attacks.</p>
+            <h3>AI Red Teaming</h3>
+            <p class="meta">Gray Swan Arena &middot; Prompt injection research &middot; Ongoing</p>
+            <p>Active participant in Gray Swan Arena AI jailbreaking competitions, probing AI models and agents with adversarial prompts. Implementing the PISmith framework, a reinforcement-learning-based approach to red teaming prompt injection defenses, for AI Applications in Information Security.</p>
           </article>
           <article class="card c-teal">
             <div class="icon">&#128027;</div>
